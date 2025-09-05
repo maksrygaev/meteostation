@@ -50,3 +50,15 @@ ESP32 подключается к датчику BME280 через I2C, а да�
 ```bash
 git clone https://github.com/username/meteostation.git
 cd meteostation
+
+BACKEND
+cd backend
+npm install
+node server.js
+Сервер стартует на http://localhost:2000.
+
+FRONTEND
+cd frontend
+npm install
+npm start
+Фронтенд запускается на http://localhost:3000
